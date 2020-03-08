@@ -1,0 +1,98 @@
+/*Border box fix*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+/*Body*/
+body{
+  font-family: 'Chilanka', cursive;
+  color: darkslategray;
+  margin: 0px auto;
+}
+/*General Webpage Contents*/
+.webcontent{
+  max-width: 950px;
+  margin: 0px auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-narrow{
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+/*Navigation Bar and Footer*/
+nav, footer{
+  background: #96ceb4;
+  color: white;
+  text-align: center;
+}
+nav a{
+  color: black;
+  padding: 10px;
+  font-size: 150%;
+}
+/*About Section*/
+.michelleimg{
+  border-radius: 8px;
+}
+.about{
+  background: #ffeead;
+}
+.about h1, .about h2{
+  color: cornflowerblue;
+  margin: 0;
+}
+.about p{
+  font-size: 120%;
+}
+/*Education Sectoin*/
+.edu{
+  background: #ffcc5c;
+}
+.educontent{
+  font-size: 120%;
+}
+.edu h2{
+  color:palevioletred;
+}
+/*Project Section*/
+.projects{
+  background: #ff6f69;
+}
+.projects h2{
+  color: #ffcc5c;
+}
+.projectscontent{
+  color: mistyrose;
+  font-size: 120%;
+}
+/*Contact Section*/
+.contact a{
+  padding: 10px;
+  display: inline-block;
+  color: white;
+}
+/*General*/
+h1{
+  font-size: 450%;
+}
+h2{
+  font-size: 200%;
+}
+/*Links*/
+a{
+  color: lightblue;
+}
+a:hover{
+  text-decoration: none;
+  color: crimson;
+}
