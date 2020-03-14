@@ -54,7 +54,7 @@ nav a{
 .about p{
   font-size: 120%;
 }
-/*Education Sectoin*/
+/*Education Section*/
 .edu{
   background: #ffcc5c;
 }
@@ -63,6 +63,14 @@ nav a{
 }
 .edu h2{
   color:palevioletred;
+}
+/*Work Experience Section*/
+.expcontent{
+  font-size: 120%;
+}
+.experience{
+  /*background: #96ceb4;*/
+  background: lightpink;
 }
 /*Project Section*/
 .projects{
